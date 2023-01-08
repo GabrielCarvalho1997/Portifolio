@@ -7,8 +7,9 @@
       position: absolute;
       right: 0px;
       justify-content: center;
-      padding: 15px 15px 0 0;
+      padding: 5px 15px 0 0;
     }
+
     #navigation-icon {
       display: flex;
       font-size: 1.5rem;
@@ -16,10 +17,19 @@
       background-color: transparent;
       border: none;
       color: white;
+      font-size: 3rem;
     }
 
     #nav.active .menu-itens {
       visibility: visible;
+    }
+
+    .logo {
+      font-size: 2rem;
+    }
+
+    nav ul li {
+      margin: 10px 5px;
     }
 
     .card {
