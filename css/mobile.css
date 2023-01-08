@@ -1,0 +1,32 @@
+@media (max-width: 640px) {
+  .description,
+  .skills {
+    width: 100vh;
+  }
+
+  /* .card {
+    width: 525px;
+    height: 300px;
+    margin: 40px;
+  }
+
+  .icons {
+    width: 525px;
+  }
+
+  .card:hover .icons {
+    height: 300px;
+    top: 0%;
+  }
+
+  .icons a {
+    margin: 35px;
+    padding: 8.75px 26.25px;
+    font-size: 3rem;
+  }
+
+  .icons a span {
+    margin: 10px;
+    font-size: 1.5rem;
+  } */
+}

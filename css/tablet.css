@@ -1,0 +1,69 @@
+@media (max-width: 960px) {
+  /* visibilidade do menu hambúrguer e mais funcionalidades */
+  @media (max-width: 779px) {
+    .menu-itens {
+      visibility: hidden;
+      display: flex;
+      position: absolute;
+      width: 100%;
+      top: 57px;
+      left: 0px;
+      background-color: pink;
+      justify-content: space-between;
+      padding: 7px 20px;
+      transition: 1s;
+    }
+    #navigation-icon {
+      display: block;
+      font-size: 1.5rem;
+    }
+
+    #nav.active .menu-itens {
+      visibility: visible;
+    }
+
+    .card {
+      width: 525px;
+      height: 300px;
+      margin: 40px;
+    }
+
+    .icons {
+      width: 525px;
+    }
+
+    .card:hover .icons {
+      height: 300px;
+      top: 0%;
+    }
+
+    .icons a {
+      margin: 35px;
+      padding: 8.75px 26.25px;
+      font-size: 3rem;
+    }
+
+    .icons a span {
+      margin: 10px;
+      font-size: 1.5rem;
+    }
+  }
+
+  nav ul li {
+    margin-left: 25px;
+  }
+
+  .sobre-mim {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description,
+  .skills {
+    width: 120vh;
+  }
+
+  .card-container {
+    justify-content: center;
+  }
+}

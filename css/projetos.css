@@ -1,0 +1,67 @@
+.projetos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.icons {
+  width: 350px;
+  height: 0px;
+  background-color: black;
+  opacity: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  transition: all 0.8s cubic-bezier(1, 0.1, 0.1, 0.1);
+  top: 150%;
+}
+
+.card:hover .icons {
+  height: 200px;
+  top: 0%;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  margin: 20px;
+  padding: 5px 15px;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.icons a span {
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  justify-content: center;
+}

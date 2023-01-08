@@ -1,0 +1,10 @@
+.section-tittle {
+  grid-area: tittle;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: 50px 0 20px 0;
+  background: linear-gradient(#444, #000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,58 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: rgb(31, 29, 33);
+  background: linear-gradient(
+    230deg,
+    rgba(82, 17, 114, 1) 0%,
+    rgba(57, 56, 58, 1) 100%
+  );
+  background-size: cover;
+
+  background-image: url(../img/background6.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: inset 0px -40px 40px #000;
+}
+
+.profile-foto {
+  filter: grayscale();
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-text {
+  font-size: 2rem;
+}
+
+.profile-name {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.profile-foto {
+  filter: grayscale();
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-text {
+  font-size: 1.5rem;
+}
+
+.profile-name {
+  font-size: 4rem;
+  color: var(--primary-color);
+}

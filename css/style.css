@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #a21208;
+  --icon-color: #4c0000;
+}
+
+@media (max-width: 3000px) {
+  #navigation-icon {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "content";
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+main {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  grid-area: content;
+  z-index: 1;
+  width: 100%;
+  place-self: start center;
+
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+}
+
+footer {
+  font-size: 0.75rem;
+  font-style: italic;
+  border-top: 2px solid white;
+  text-align: center;
+  padding: 10px;
+}

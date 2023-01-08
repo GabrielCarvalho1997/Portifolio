@@ -1,0 +1,32 @@
+nav ul {
+  display: flex;
+  font-size: 1.25rem;
+}
+
+nav ul li {
+  border-bottom: 4px solid transparent;
+  transition: border-color 0.25s;
+  margin-left: 50px;
+}
+
+nav ul li:hover {
+  border-color: var(--primary-color);
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo::before {
+  content: "<";
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.logo::after {
+  content: "/>";
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
