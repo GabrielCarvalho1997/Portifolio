@@ -33,12 +33,11 @@ header {
   z-index: 1;
   width: 100%;
   place-self: start center;
-
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: pink;
+  position: relative;
 }
 
 footer {

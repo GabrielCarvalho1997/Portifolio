@@ -3,19 +3,19 @@
   @media (max-width: 779px) {
     .menu-itens {
       visibility: hidden;
-      display: flex;
+      display: block;
       position: absolute;
-      width: 100%;
-      top: 57px;
-      left: 0px;
-      background-color: pink;
-      justify-content: space-between;
-      padding: 7px 20px;
-      transition: 1s;
+      right: 0px;
+      justify-content: center;
+      padding: 15px 15px 0 0;
     }
     #navigation-icon {
-      display: block;
+      display: flex;
       font-size: 1.5rem;
+      justify-content: end;
+      background-color: transparent;
+      border: none;
+      color: white;
     }
 
     #nav.active .menu-itens {
@@ -47,10 +47,6 @@
       margin: 10px;
       font-size: 1.5rem;
     }
-  }
-
-  nav ul li {
-    margin-left: 25px;
   }
 
   .sobre-mim {

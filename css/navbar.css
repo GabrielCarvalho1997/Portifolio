@@ -4,12 +4,16 @@ nav ul {
 }
 
 nav ul li {
-  border-bottom: 4px solid transparent;
-  transition: border-color 0.25s;
-  margin-left: 50px;
+  text-align: end;
+  margin: 0px 5px;
 }
 
-nav ul li:hover {
+nav ul li a {
+  border-bottom: 4px solid transparent;
+  transition: border-color 0.25s;
+}
+
+nav ul li a:hover {
   border-color: var(--primary-color);
 }
 
