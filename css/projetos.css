@@ -33,7 +33,7 @@
   justify-content: center;
 
   position: absolute;
-  transition: all 0.8s cubic-bezier(1, 0.1, 0.1, 0.1);
+  transition: all 0.5s cubic-bezier(1, 0.1, 0.1, 0.1);
   top: 150%;
 }
 
