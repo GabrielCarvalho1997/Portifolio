@@ -5,9 +5,11 @@
       visibility: hidden;
       display: block;
       position: absolute;
+      top: 68px;
       right: 0px;
       justify-content: center;
-      padding: 5px 15px 0 0;
+      padding: 0px 15px 0 0;
+      background-color: rgba(0, 0, 0, 0.3);
     }
 
     #navigation-icon {
@@ -29,7 +31,7 @@
     }
 
     nav ul li {
-      margin: 10px 5px;
+      margin: 0 5px 5px 10px;
     }
 
     .card {
